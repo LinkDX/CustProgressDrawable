@@ -1,12 +1,15 @@
 # CustProgressDrawable
 Pure drawable solution to customize android progress bar
 
-Customized result
-![screenshot_20180205-000914](https://user-images.githubusercontent.com/3983418/35779628-5952f4ec-0a0b-11e8-91c8-07fb9531b739.png)
+## Customized result
+<img src="https://user-images.githubusercontent.com/3983418/35779724-d2376eb4-0a0c-11e8-8372-7aaa9beac3ed.PNG" width="600">
 
-[Horizontal progress]
-Indeterminate
-1. Gradient background
-2. Light scan effect
-Determinate
-1. Gradient progress
+## Horizontal progress
+### Indeterminate
+- Gradient background
+- Light scan effect
+- Rounded bar
+### Determinate
+- Gradient progress
+- Rounded bar
+- Rounded progress head
