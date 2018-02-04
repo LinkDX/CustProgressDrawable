@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="360dp"
+    android:height="10dp"
+    android:viewportHeight="16"
+    android:viewportWidth="360">
+    <group android:name="progress_group">
+        <path
+            android:name="background_track"
+            android:pathData="M2,8 a2,2 0 1 0 0,4 h356 a2,2 0 1 0 0,-4 Z"
+            android:useLevel="true">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:angle="0"
+                    android:endColor="#26EFA7"
+                    android:endX="360"
+                    android:startColor="#4586e2"
+                    android:startX="0.0" />
+            </aapt:attr>
+        </path>
+        <group android:name="light_scan">
+            <group android:translateX="-100">
+                <group>
+                    <path android:pathData="M0,8 h40 v4 h-40 z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient
+                                android:angle="0"
+                                android:endColor="#00FFFFFF"
+                                android:endX="0"
+                                android:startColor="#99FFFFFF"
+                                android:startX="40.0" />
+                        </aapt:attr>
+                    </path>
+                </group>
+                <group android:translateX="40">
+                    <path
+                        android:fillColor="#99FFFFFF"
+                        android:pathData="M0,8 h20 v4 h-20 z" />
+                </group>
+                <group android:translateX="60">
+                    <path android:pathData="M0,8 h40 v4 h-40 z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient
+                                android:angle="0"
+                                android:endColor="#00FFFFFF"
+                                android:endX="40"
+                                android:startColor="#99FFFFFF"
+                                android:startX="0" />
+                        </aapt:attr>
+                    </path>
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>
